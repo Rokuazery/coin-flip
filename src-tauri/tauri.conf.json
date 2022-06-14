@@ -12,11 +12,11 @@
   },
   "tauri": {
     "allowlist": {
-      "all": true
+      "all": false
     },
     "bundle": {
       "active": true,
-      "category": "DeveloperTool",
+      "category": "Game",
       "copyright": "",
       "deb": {
         "depends": []
@@ -56,11 +56,15 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 600,
-        "resizable": true,
+        "height": 500,
+        "width": 650,
+        "minHeight": 500,
+        "minWidth": 650,
+        "resizable": false,
         "center": true,
-        "title": "Coin Flip by Rokuazery",
-        "width": 800
+        "title": "Coin Flip",
+        "transparent": false,
+        "theme":"Dark"
       }
     ]
   }
