@@ -1,2 +1,2 @@
-# coin flip
- a basic coin flip application. 😊
+# coin-flip
+ A basic coin flip application. 😊
